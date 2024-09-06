@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    color: rgb(231, 146, 161);
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    color: rgb(247, 250, 255);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #C87171
+}
+
+#logo {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 60px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+/*
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 40px;
+    list-style: none;
+}
+*/
+
+a {
+    text-decoration: none;
+}
+
+
+
+.boton {
+    display: inline-block;
+    background-color: #C87171;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    margin-top: 1%;
+}
+
+#linkinstagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 22pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(182, 46, 46, 0.678);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgba(158, 154, 156, 0.74);
+    font-family: "Poppins", sans-serif;
+}
+
+
+.row {
+    align-content: center;
+    justify-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.contenedorreferencias {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: auto;
+}
+
+.contenedorcolecciones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: auto;
+    gap: 30px;
+}
+
+
+.col-md-4 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-items: center;
+}
+
+
+.col-sm-4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1%;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+.cajaprecio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagenproducto {
+    height: 200px;
+    width: 200px;
+    align-content: center;
+}
+
+.headercentrado {
+    text-align: center;
+    font-size: 50pt;
+    padding: 1%;
+    background-color: #fde5e5;
+    color: #ffffff;
+}
+
+.slidesproductos {
+    display: flex;
+    flex-direction: row;
+}
+
+.precio {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+footer {
+    background-color: rgb(245, 237, 244);
+}
